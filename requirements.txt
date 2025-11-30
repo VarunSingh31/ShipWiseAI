@@ -1,0 +1,33 @@
+numpy
+pandas 
+scikit-learn
+langchain
+streamlit
+seaborn
+matplotlib
+#Langchain core
+langchain
+langchain-core
+
+#Open-AI Integration
+langchain-openai
+openai
+
+#Anthropic Integration
+langchain-anthropic 
+
+#Google Gemini (PaLM) Integration
+langchain-google-genai
+google-generativeai
+
+#Hugging Face Integration
+langchain-huggingface
+transformers
+huggingface-hub
+
+#Enviornment Variable Management 
+python-dotenv
+
+#ML Utilities
+numpy 
+scikit-learn

@@ -1,0 +1,47 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.db
+*.sqlite3
+
+# ---- Virtual Environment ----
+venv/
+env/
+.venv/
+
+# ---- Credentials / Environment ----
+.env
+*.env
+apikey.txt
+
+# ---- Streamlit ----
+.streamlit/secrets.toml
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+
+# ---- IDE ----
+.vscode/
+.idea/
+
+# ---- Cache ----
+.cache/
+.ipynb_checkpoints/
+
+# ---- Build / Dist ----
+build/
+dist/
+*.egg-info/
+
+# ---- Uploads / Data ----
+data/*.csv
+data/*.pkl
+uploaded_files/
+temp/

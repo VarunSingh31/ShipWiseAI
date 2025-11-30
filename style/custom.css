@@ -1,0 +1,79 @@
+/* style/custom_style.css */
+
+/* Universal Background and Font */
+body {
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f5f7fa;
+}
+
+/* Page Title */
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #2b3856;
+    margin-bottom: 10px;
+}
+
+/* Subheadings */
+h2, h3, h4 {
+    color: #3c4b64;
+    font-weight: 600;
+}
+
+/* Button Styling */
+.stButton > button {
+    background-color: #0052cc;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 10px 24px;
+    transition: background-color 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #0065ff;
+    color: white;
+}
+
+/* Metrics Boxes */
+.stMetric {
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    margin: 8px 0;
+    font-weight: bold;
+    color: #2b3856;
+}
+
+/* Info and Warning Boxes */
+.stAlert {
+    border-radius: 10px;
+}
+
+/* DataFrames Tables */
+thead {
+    background-color: #0052cc;
+    color: white;
+    font-weight: bold;
+}
+
+table {
+    font-size: 14px;
+}
+
+/* Text Input Fields */
+.stTextInput > div > input {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* File Uploader */
+.stFileUploader {
+    background-color: #f0f2f6;
+    padding: 10px;
+    border-radius: 8px;
+}
